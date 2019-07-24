@@ -11,21 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/", name="homepage")
-     */
-    public function indexAction()
-    {
-
-        // replace this example code with whatever you need
-       // $exampleConnection = $imap->get('example_connection');
-
-        return $this->render('default/index.html.twig', [
-            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
-        ]);
-    }
-
-    /**
-     * @Route("/lucky/number")
+     * @Route("/linio")
      */
     public function numberAction()
     {
